@@ -32414,7 +32414,6 @@
 	(symbol
 		(lib_id "Unknown:DLW32SH101XF2L")
 		(at 657.86 426.72 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32422,7 +32421,7 @@
 		(dnp no)
 		(uuid "ed82fb03-df7d-42cc-bf94-6c49360e08ea")
 		(property "Reference" "FL1"
-			(at 657.4028 436.88 0)
+			(at 657.4028 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32430,7 +32429,7 @@
 			)
 		)
 		(property "Value" "DLW32SH101XF2L"
-			(at 657.4028 434.34 0)
+			(at 657.4028 419.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
