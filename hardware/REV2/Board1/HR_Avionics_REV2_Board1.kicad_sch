@@ -715,6 +715,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -7369,6 +7482,68 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Unknown:S01-30300500"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S01-30300500"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Unknown:S01-30300500"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "S01-30300500_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Unknown:SS12SDP2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9168,6 +9343,16 @@
 		)
 		(uuid "b42342e2-1f84-47b9-96ea-985ec4be5316")
 	)
+	(text "S2711-46R"
+		(exclude_from_sim no)
+		(at 750.57 407.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c475fada-2a5e-45c0-9d44-9bda7349139c")
+	)
 	(text "ソフトスタート用"
 		(exclude_from_sim no)
 		(at 668.02 81.28 0)
@@ -9292,6 +9477,12 @@
 		(uuid "05d70fa6-981d-41e2-965d-39b348a32db7")
 	)
 	(junction
+		(at 689.61 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07099585-3720-4604-b841-c8875eca1999")
+	)
+	(junction
 		(at 666.75 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9334,6 +9525,12 @@
 		(uuid "13017094-4268-46ab-9922-5c15530b8eae")
 	)
 	(junction
+		(at 689.61 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14909f73-ae9e-4831-a15b-d1274e34e0ca")
+	)
+	(junction
 		(at 694.69 429.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9356,12 +9553,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cb457b2-8f6b-40b6-8029-757b52e3caf4")
-	)
-	(junction
-		(at 689.61 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dba427f-281b-4686-9ea1-0572ddbd62b1")
 	)
 	(junction
 		(at 257.81 143.51)
@@ -9422,6 +9613,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33401535-bca6-4fe4-95db-9bbffa168d23")
+	)
+	(junction
+		(at 689.61 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34275939-c145-48d1-83a8-0c5f2cc8e8da")
 	)
 	(junction
 		(at 237.49 93.98)
@@ -9514,6 +9711,12 @@
 		(uuid "5c80c451-3338-4cb6-971f-eeba509e0ccc")
 	)
 	(junction
+		(at 736.6 392.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cb2dc4b-f616-4b13-bb8b-49df03abd3d4")
+	)
+	(junction
 		(at 450.85 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9574,6 +9777,18 @@
 		(uuid "7045d017-c9a0-409f-aeac-085606abbe02")
 	)
 	(junction
+		(at 689.61 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76a83f76-48d3-4906-891b-b2a81f691067")
+	)
+	(junction
+		(at 736.6 397.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "782e518d-6c56-43b5-89bd-6e46872ea273")
+	)
+	(junction
 		(at 335.28 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9584,12 +9799,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87d17e67-94ec-4ad0-80a7-63e9fe321e3e")
-	)
-	(junction
-		(at 689.61 298.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "881de521-03b4-4bfc-aa6b-d1208ba2ec24")
 	)
 	(junction
 		(at 660.4 152.4)
@@ -9634,12 +9843,6 @@
 		(uuid "9dadca07-37bf-44d2-a507-9c2ed6b92979")
 	)
 	(junction
-		(at 689.61 293.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a183374c-3dc1-4e1b-ac0c-16c8faa45932")
-	)
-	(junction
 		(at 265.43 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9670,6 +9873,12 @@
 		(uuid "a6fb2305-e371-4dbb-a1ae-fc25d4d40c63")
 	)
 	(junction
+		(at 736.6 402.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b396cd4d-8e60-4d5c-8962-6b0e0082f7b8")
+	)
+	(junction
 		(at 467.36 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9680,12 +9889,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7aa58e0-2d6a-4240-9efd-ddcde81915f4")
-	)
-	(junction
-		(at 689.61 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b927f4d7-f818-4d44-bfba-d7b2b24c8c7a")
 	)
 	(junction
 		(at 204.47 86.36)
@@ -10139,6 +10342,16 @@
 			(type default)
 		)
 		(uuid "073bd3ea-a042-4463-b409-a25f339398f5")
+	)
+	(wire
+		(pts
+			(xy 736.6 402.59) (xy 736.6 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d47ec7-23ac-42d7-8364-bfc95ac5c4aa")
 	)
 	(wire
 		(pts
@@ -10704,6 +10917,16 @@
 	)
 	(wire
 		(pts
+			(xy 736.6 392.43) (xy 737.87 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3707a1b3-a6fb-4f46-a13c-8bf5695ad697")
+	)
+	(wire
+		(pts
 			(xy 265.43 144.78) (xy 265.43 143.51)
 		)
 		(stroke
@@ -10941,6 +11164,16 @@
 			(type default)
 		)
 		(uuid "43e8982c-cf6f-4df5-92aa-b7ddf2f4bb85")
+	)
+	(wire
+		(pts
+			(xy 737.87 387.35) (xy 736.6 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45acd2ba-d393-447e-a5d4-c0ab20bd3381")
 	)
 	(wire
 		(pts
@@ -11446,6 +11679,16 @@
 	)
 	(wire
 		(pts
+			(xy 736.6 392.43) (xy 736.6 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f37cf2-d729-4196-8d69-9b7d246b079a")
+	)
+	(wire
+		(pts
 			(xy 447.04 294.64) (xy 466.09 294.64)
 		)
 		(stroke
@@ -11466,7 +11709,7 @@
 	)
 	(wire
 		(pts
-			(xy 445.77 90.17) (xy 445.77 88.9)
+			(xy 445.77 88.9) (xy 445.77 95.25)
 		)
 		(stroke
 			(width 0)
@@ -11583,6 +11826,16 @@
 			(type default)
 		)
 		(uuid "6b6dcd8a-26af-434f-acb3-8d338690f128")
+	)
+	(wire
+		(pts
+			(xy 736.6 402.59) (xy 737.87 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c814d53-980a-44d9-8501-e9efc9b2e389")
 	)
 	(wire
 		(pts
@@ -13120,6 +13373,16 @@
 	)
 	(wire
 		(pts
+			(xy 736.6 397.51) (xy 737.87 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e8d17b-f056-4bd5-bd51-e450e266540d")
+	)
+	(wire
+		(pts
 			(xy 687.07 424.18) (xy 690.88 424.18)
 		)
 		(stroke
@@ -13912,6 +14175,16 @@
 	)
 	(wire
 		(pts
+			(xy 736.6 397.51) (xy 736.6 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f331c8f1-f912-4321-baad-fe1e5123e2b1")
+	)
+	(wire
+		(pts
 			(xy 662.94 93.98) (xy 662.94 95.25)
 		)
 		(stroke
@@ -14010,6 +14283,16 @@
 			(type default)
 		)
 		(uuid "fa0a661d-cc5b-4ed8-973d-3ce6e3f8e77e")
+	)
+	(wire
+		(pts
+			(xy 736.6 387.35) (xy 736.6 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0c8743-17cb-43c8-9401-4a965e9f2258")
 	)
 	(wire
 		(pts
@@ -15285,7 +15568,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
-		(at 687.07 246.38 0)
+		(at 687.07 246.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15293,7 +15576,7 @@
 		(dnp no)
 		(uuid "05371e43-8bee-408e-8d37-fccaad0b5eb5")
 		(property "Reference" "D18"
-			(at 688.34 241.3 0)
+			(at 685.8 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15302,7 +15585,7 @@
 			)
 		)
 		(property "Value" "SMBJ16CA(576-SMBJ16CA)"
-			(at 693.42 238.76 0)
+			(at 680.72 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18193,7 +18476,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
-		(at 687.07 251.46 0)
+		(at 687.07 251.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18201,7 +18484,7 @@
 		(dnp no)
 		(uuid "31fc36cb-3919-45b9-9309-95244f11a086")
 		(property "Reference" "D5"
-			(at 688.34 246.38 0)
+			(at 685.8 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18210,7 +18493,7 @@
 			)
 		)
 		(property "Value" "SMBJ16CA(576-SMBJ16CA)"
-			(at 698.5 243.84 0)
+			(at 675.64 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23029,6 +23312,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 742.95 387.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73875100-665d-4c6c-a60e-fc87fbe8faa5")
+		(property "Reference" "J15"
+			(at 745.49 386.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2711-46R"
+			(at 745.49 388.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pq_k_gentaro:S2711-46R"
+			(at 742.95 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 742.95 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 742.95 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d60fb429-25d9-405f-8e3d-03907e93ff18")
+		)
+		(instances
+			(project "HR_Avionics_REV2_Board1"
+				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 641.35 265.43 0)
 		(unit 1)
@@ -23089,6 +23439,73 @@
 			(project "HR_Avionics_REV2_Board1"
 				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 742.95 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75efc2cb-895a-4ec0-aacf-f67b5652c13b")
+		(property "Reference" "J18"
+			(at 745.49 401.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2711-46R"
+			(at 745.49 403.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pq_k_gentaro:S2711-46R"
+			(at 742.95 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 742.95 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 742.95 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc0ce838-3cc7-4a2b-ae13-805167d33734")
+		)
+		(instances
+			(project "HR_Avionics_REV2_Board1"
+				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -23366,6 +23783,73 @@
 			(project "HR_Avionics_REV2_Board1"
 				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 742.95 392.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eb6aaf0-439c-478c-bd63-9aa93426387b")
+		(property "Reference" "J16"
+			(at 745.49 391.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2711-46R"
+			(at 745.49 393.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pq_k_gentaro:S2711-46R"
+			(at 742.95 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 742.95 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 742.95 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b481919-172f-4956-a156-22a1bc05f3c9")
+		)
+		(instances
+			(project "HR_Avionics_REV2_Board1"
+				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -24783,6 +25267,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 742.95 397.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8df00728-12e0-4ba1-8eea-43f5984964a4")
+		(property "Reference" "J17"
+			(at 745.49 396.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2711-46R"
+			(at 745.49 398.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pq_k_gentaro:S2711-46R"
+			(at 742.95 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 742.95 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 742.95 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bcacdbd-aa47-4a51-ac08-af6b280e2199")
+		)
+		(instances
+			(project "HR_Avionics_REV2_Board1"
+				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 688.34 262.89 0)
 		(unit 1)
@@ -25400,6 +25951,70 @@
 			(project "HR_Avionics_REV2_Board1"
 				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Unknown:S01-30300500")
+		(at 745.49 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95ce5445-170f-4494-a495-721486b0eb41")
+		(property "Reference" "U10"
+			(at 751.84 375.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S01-30300500"
+			(at 751.84 378.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Unknown:S01-30300500"
+			(at 745.49 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 745.49 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 745.49 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HR_Avionics_REV2_Board1"
+				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -29439,6 +30054,71 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
+		(at 736.6 403.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c07109a7-d888-459e-82ce-76323ea33140")
+		(property "Reference" "#PWR0107"
+			(at 736.6 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 736.6 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 736.6 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 736.6 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 736.6 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a63e440-9a90-41de-8ab3-d805988d4f4b")
+		)
+		(instances
+			(project "HR_Avionics_REV2_Board1"
+				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
 		(at 641.35 312.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32344,7 +33024,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
-		(at 687.07 293.37 0)
+		(at 687.07 293.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32352,7 +33032,7 @@
 		(dnp no)
 		(uuid "ecc5da54-234f-48ca-95d3-6081604b105d")
 		(property "Reference" "D3"
-			(at 688.34 288.29 0)
+			(at 685.8 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32361,7 +33041,7 @@
 			)
 		)
 		(property "Value" "SMBJ16CA(576-SMBJ16CA)"
-			(at 693.42 285.75 0)
+			(at 680.72 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32874,7 +33554,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
-		(at 687.07 298.45 0)
+		(at 687.07 298.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32882,7 +33562,7 @@
 		(dnp no)
 		(uuid "f4ce1e2b-ea81-4f4d-a722-82d88555ac75")
 		(property "Reference" "D6"
-			(at 688.34 293.37 0)
+			(at 685.8 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32891,7 +33571,7 @@
 			)
 		)
 		(property "Value" "SMBJ16CA(576-SMBJ16CA)"
-			(at 698.5 290.83 0)
+			(at 675.64 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32936,73 +33616,6 @@
 			(project "HR_Avionics_REV2_Board1"
 				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 445.77 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f50b4a2e-b237-4dbd-902c-eb240d53df9f")
-		(property "Reference" "R53"
-			(at 445.77 97.79 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 448.31 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 445.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 445.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 445.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2ebff4cd-4b18-48b1-af5e-5d1f12da7930")
-		)
-		(pin "1"
-			(uuid "964aef5a-6f18-4ee2-b814-d6e7edb99904")
-		)
-		(instances
-			(project "HR_Avionics_REV2_Board1"
-				(path "/82a00c3f-1259-4a7d-991b-f9e0044540ed"
-					(reference "R53")
 					(unit 1)
 				)
 			)
