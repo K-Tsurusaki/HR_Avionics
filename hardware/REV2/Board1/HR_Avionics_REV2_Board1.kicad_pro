@@ -303,7 +303,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "2.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -853,7 +853,7 @@
       {
         "filename": "HR_Avionics_REV2_Board1.kicad_sch",
         "name": "HR_Avionics_REV2_Board1",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "82a00c3f-1259-4a7d-991b-f9e0044540ed"
       }
     ],
     "used_designators": "",
@@ -862,7 +862,7 @@
   "sheets": [
     [
       "82a00c3f-1259-4a7d-991b-f9e0044540ed",
-      "Root"
+      "HR_Avionics_REV2_Board1"
     ]
   ],
   "text_variables": {},
